@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  font-family: "Figtree", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  padding: 20px;
+  max-width: 380px;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px 0px;
+  font-weight: 500;
+}
+
+.mode {
+  background-color: hsl(47, 88%, 63%);
+  max-width: fit-content;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 800;
+}
+.header-image {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+
+.title-header {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 42%);
+}
+
+.avatar-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+}
